@@ -100,6 +100,7 @@ In metasploit list all the usernames using head /etc/passwd or cat /etc/passwd:
 ![image](https://github.com/AasrithSairam/Enumeration/assets/139331438/b3031c33-89d3-445b-89ab-ade955dfa207)
 
 select any username in the first column of the above file and check the same
+![image](https://github.com/AasrithSairam/Enumeration/assets/139331438/bfca1263-569a-4115-be65-e54c3a6a63e8)
 
 
 #Telnet for smtp enumeration
@@ -108,7 +109,8 @@ telnet <host address> 25 to connect
 and issue appropriate commands
   
  ##Output
-  
+  ![image](https://github.com/AasrithSairam/Enumeration/assets/139331438/9feccdec-2d60-477c-834e-abbcf6c2a7f1)
+
   
 
 ## nmap –script smtp-enum-users.nse <hostname>
@@ -117,6 +119,7 @@ The smtp-enum-users.nse script attempts to enumerate the users on a SMTP server 
 
 
 ## OUTPUT:
+![image](https://github.com/AasrithSairam/Enumeration/assets/139331438/162ebffd-4871-41f9-91d4-528252e21331)
 
 
 ## RESULT:
